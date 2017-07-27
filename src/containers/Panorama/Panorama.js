@@ -8,7 +8,7 @@ import { push } from 'react-router-redux';
 const PanoramaComponent = ({params, panos, goBack}) => {
   return (
     <Scene>
-      <Entity primitive='a-sky' src={"/PanoGallery/VR/"+params.id+".jpg"}/>
+      <Entity primitive='a-sky' src={"https://raw.githubusercontent.com/SiDevesh/PanoGallery/gh-pages/VR/"+params.id+".jpg"}/>
       <Entity primitive='a-camera' position="0 2 4">
         <Entity
           primitive='a-cursor'
