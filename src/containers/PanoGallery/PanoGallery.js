@@ -44,7 +44,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     viewImage: (id) => {
-      dispatch(push('/'+id));
+      dispatch(push('/PanoGallery/'+id));
     },
     loadData: () => {
       dispatch(callDataLoad());

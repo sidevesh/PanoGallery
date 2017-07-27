@@ -21,7 +21,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     goToPanorama: (id) => {
-      dispatch(push('/'+id));
+      dispatch(push('/PanoGallery/'+id));
     }
   }
 }

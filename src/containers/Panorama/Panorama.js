@@ -41,7 +41,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     goBack: (id) => {
-      dispatch(push('/'));
+      dispatch(push('/PanoGallery'));
     }
   }
 }

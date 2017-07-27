@@ -9,7 +9,7 @@ export default (
     <IndexRedirect to="PanoGallery"/>
     <Route path="/PanoGallery" component={App}>
       <IndexRoute component={PanoGallery} />
-      <Route path="/:id" component={Panorama}/>
+      <Route path=":id" component={Panorama}/>
     </Route>
   </Route>
 );
